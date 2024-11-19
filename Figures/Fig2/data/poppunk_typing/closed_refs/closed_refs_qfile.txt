@@ -1,0 +1,9 @@
+670-6B_fixed	/n/holylfs05/LABS/lipsitch_lab/Lab/hsphs10/igonzalezojeda/strep_nfds/Data/assemblies_pneumococcal_carriage/closed-refs-fasta/670-6B_fixed.fasta
+AP200_fixed	/n/holylfs05/LABS/lipsitch_lab/Lab/hsphs10/igonzalezojeda/strep_nfds/Data/assemblies_pneumococcal_carriage/closed-refs-fasta/AP200_fixed.fasta
+ATCC700669_fixed	/n/holylfs05/LABS/lipsitch_lab/Lab/hsphs10/igonzalezojeda/strep_nfds/Data/assemblies_pneumococcal_carriage/closed-refs-fasta/ATCC700669_fixed.fasta
+D39_fixed	/n/holylfs05/LABS/lipsitch_lab/Lab/hsphs10/igonzalezojeda/strep_nfds/Data/assemblies_pneumococcal_carriage/closed-refs-fasta/D39_fixed.fasta
+G54_fixed	/n/holylfs05/LABS/lipsitch_lab/Lab/hsphs10/igonzalezojeda/strep_nfds/Data/assemblies_pneumococcal_carriage/closed-refs-fasta/G54_fixed.fasta
+OXC141_fixed	/n/holylfs05/LABS/lipsitch_lab/Lab/hsphs10/igonzalezojeda/strep_nfds/Data/assemblies_pneumococcal_carriage/closed-refs-fasta/OXC141_fixed.fasta
+P1031_fixed	/n/holylfs05/LABS/lipsitch_lab/Lab/hsphs10/igonzalezojeda/strep_nfds/Data/assemblies_pneumococcal_carriage/closed-refs-fasta/P1031_fixed.fasta
+Taiwan19F-14_fixed	/n/holylfs05/LABS/lipsitch_lab/Lab/hsphs10/igonzalezojeda/strep_nfds/Data/assemblies_pneumococcal_carriage/closed-refs-fasta/Taiwan19F-14_fixed.fasta
+TIGR4_fixed	/n/holylfs05/LABS/lipsitch_lab/Lab/hsphs10/igonzalezojeda/strep_nfds/Data/assemblies_pneumococcal_carriage/closed-refs-fasta/TIGR4_fixed.fasta
