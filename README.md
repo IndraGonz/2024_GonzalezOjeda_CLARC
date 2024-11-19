@@ -38,6 +38,10 @@ Additionally, all corresponding assemblies (.fasta) and annotation files (.gff) 
   
 ## Figure 1
 
+Workflow of CLARC tool:
+
+![CLARC workflow](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure1_v3.pdf)
+
 ## Figure 2
 
 ## Figure 3
