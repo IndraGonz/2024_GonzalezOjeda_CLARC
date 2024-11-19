@@ -1,0 +1,9 @@
+Taiwan19F-14_fixed
+TIGR4_fixed
+AP200_fixed
+G54_fixed
+P1031_fixed
+OXC141_fixed
+D39_fixed
+ATCC700669_fixed
+670-6B_fixed
