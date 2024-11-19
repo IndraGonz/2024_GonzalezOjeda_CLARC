@@ -32,7 +32,7 @@ A total of 8907 pneumococcal genomes were used in this study. Among these are 9 
 - South Africa - 1637 samples
 - Iceland - 958 samples
 
-The accession numbers for all samples used (divided by dataset) can be found in the [Genomes/accession_numbers](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Genomes/accession_numbers) folder within this repository. 
+The accession numbers for all samples used (divided by dataset) can be found in the [Genomes/accession_numbers](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Genomes/accession_numbers/) folder within this repository. 
 
 Additionally, all corresponding assemblies (.fasta) and annotation files (.gff) can be found in this [Zenodo folder]()
   
@@ -40,9 +40,21 @@ Additionally, all corresponding assemblies (.fasta) and annotation files (.gff) 
 
 Workflow of CLARC tool:
 
-![CLARC workflow](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure1_v3.pdf)
+<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure1_v3.png" alt="CLARC workflow" width="750"/>  
 
 ## Figure 2
+
+Distribution of pneumococcal strain clusters in different geographic locations:
+
+<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure2_v3.png" alt="Figure 2" width="900"/>  
+
+### 2B, 2C
+
+- code:
+  - Jupyter notebook with processing of PopPUNK data: [Figure2_code_CLARC_2024.ipynb](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig2/code/Figure2_code_CLARC_2024.ipynb)
+ 
+- data:
+  - Output of PopPUNK analyses, along with the appropiate qfiles for each run can be found at: [Figures/Fig2/data/poppunk_typing](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Figures/Fig2/data/poppunk_typing)
 
 ## Figure 3
 
