@@ -75,11 +75,11 @@ Distribution of pneumococcal strain clusters in different geographic locations:
       Firstly, the code in this [jupyter notebok](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/code/essential_gene_analysis/extracting_TIGR4_essential_genes_paper.ipynb) (extracting_TIGR4_essential_genes_paper.ipynb) was used to extract the protein sequences for the essential genes identified by van Opijnen, et al. (2009).
 
   - data:
-
-      We used the genomic feature file for the pneumococcal strain that was used in the Tn-Seq analysis (TIGR4). The NCBI accession number is [GCF_000006885.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000006885.1/). The gff can be found in this GitHub repository under the name [TIGR4_closed_ref_2001.gbff](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/data/essential_gene_analysis/TIGR4_closed_ref_2001.gbff)
-
-      Additionally, the metadata 
-
+ 
+      The pneumococcal essential genes were identified using the metadata from van Opijnen, et al. (2009), which can be found in this repository under the name [tnseq_essential_genes_paper_data.xls](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/data/essential_gene_analysis/tnseq_essential_genes_paper_data.xls).
+      
+      Additionally, to extract the appropiate essential gene sequences, we used the genomic feature file for the pneumococcal strain that was used in the Tn-Seq analysis (TIGR4). The NCBI accession number is [GCF_000006885.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000006885.1/). This gff can be found in this GitHub repository under the name [TIGR4_closed_ref_2001.gbff](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/data/essential_gene_analysis/TIGR4_closed_ref_2001.gbff)
+ 
 - Protein BLAST-ing pangenome analyses for essential gene protein sequences
 
   - code:
@@ -88,12 +88,14 @@ Distribution of pneumococcal strain clusters in different geographic locations:
 
      Importantly, the run_essential_blasting_paper.ipynb calls a bash script (essential_protein_blast_paper.sh) to run the blast commands. This bash script can be found [in this repository](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/code/essential_gene_analysis/essential_protein_blast_paper.sh). The bash script assumes that blast is installed within a conda environment named 'blast', when running the commands. If this is not the case for you, you can comment the first line. 
 
-- data:
+  - data:
 
-- 
+    The extracted essential gene protein sequences that were used to build the BLASTP database (aka the output of the extracting_TIGR4_essential_genes_paper.ipynb notebook) can be found here under the name [strep_pneumo_essential_protein_seqs.fasta](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/data/essential_gene_analysis/strep_pneumo_essential_protein_seqs.fasta)
 
+- Summarizing BLASTP query results
 
-- 
+  - code:
+  - data:
 
 ## Figure 4
 
