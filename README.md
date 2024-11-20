@@ -58,6 +58,43 @@ Distribution of pneumococcal strain clusters in different geographic locations:
 
 ## Figure 3
 
+### 3A and 3B
+
+- code:
+
+- data:
+
+### 3C
+
+- Extracting essential gene protein sequences from NCBI genomic feature file
+
+  - code:
+
+      In this analysis we go through every pangenome analysis generated and query essential genes previously characterized by [van Opijnen, et al. (2009)](https://www.nature.com/articles/nmeth.1377), to see if they were found in the accessory or core genome. 
+
+      Firstly, the code in this [jupyter notebok](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/code/essential_gene_analysis/extracting_TIGR4_essential_genes_paper.ipynb) (extracting_TIGR4_essential_genes_paper.ipynb) was used to extract the protein sequences for the essential genes identified by van Opijnen, et al. (2009).
+
+  - data:
+
+      We used the genomic feature file for the pneumococcal strain that was used in the Tn-Seq analysis (TIGR4). The NCBI accession number is [GCF_000006885.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000006885.1/). The gff can be found in this GitHub repository under the name [TIGR4_closed_ref_2001.gbff](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/data/essential_gene_analysis/TIGR4_closed_ref_2001.gbff)
+
+      Additionally, the metadata 
+
+- Protein BLAST-ing pangenome analyses for essential gene protein sequences
+
+  - code:
+ 
+      After obtaining the fasta file with the appropiate protein sequences, we use this [jupyter notebook](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/code/essential_gene_analysis/run_essential_blasting_paper.ipynb) (run_essential_blasting_paper.ipynb) which takes as input the path to the appropiate pangenome results folder (in this project, the i80, i90 and i95 files available in this [Zenodo folder](10.5281/zenodo.14187853)). All appropiate directories and subdirectories can be found in these compressed files.
+
+     Importantly, the run_essential_blasting_paper.ipynb calls a bash script (essential_protein_blast_paper.sh) to run the blast commands. This bash script can be found [in this repository](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/code/essential_gene_analysis/essential_protein_blast_paper.sh). The bash script assumes that blast is installed within a conda environment named 'blast', when running the commands. If this is not the case for you, you can comment the first line. 
+
+- data:
+
+- 
+
+
+- 
+
 ## Figure 4
 
 ## Figure 5
