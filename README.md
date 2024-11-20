@@ -26,7 +26,7 @@ A total of 8907 pneumococcal genomes were used in this study. Among these are 9 
 
 - Southwest, USA - 937 samples
 - Massachusetts, USA - 1347 samples
-- Southhampton, UK - 470 samples
+- Southampton, UK - 470 samples
 - Maela, Thailand - 2920 samples
 - Malawi - 629 samples
 - South Africa - 1637 samples
