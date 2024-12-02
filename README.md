@@ -60,7 +60,7 @@ Distribution of pneumococcal strain clusters in different geographic locations:
 
 Reduction of gene oversplitting for various pneumococcal pangenome analyses (pangenomes generated added one dataset at a time, cumulatively)
 
-<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure3_v3.png" alt="CLARC workflow" width="750"/>  
+<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure3_v3.png" alt="Accessory and core count, Roary pre and post CLARC" width="750"/>  
 
 ### 3A and 3B
 
@@ -103,6 +103,18 @@ Reduction of gene oversplitting for various pneumococcal pangenome analyses (pan
   - data: As previously mentioned, the CLARC result folders for the different identity parameters (i95, i90, i80) including BLASTP query results can be found compressed in this [Zenodo folder](10.5281/zenodo.14187853)
 
 ## Figure 4
+
+Breakdown of CLARC clusters found in all-carriage pneumococcal pangenome (8907 genomes)
+
+<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure4_v3.png" alt="All carriage CLARC cluster breakdown" width="750"/>  
+
+This figure was generated using the Roary and Roary+CLARC results of the pangenome analysis built with all 8,907 pneumococcal genomes. Specifically, this analysis uses the pangenome analysis created with the default parameters (identity threshold = 95%).
+
+### 4B and 4C
+
+- code: Code to parse CLARC cluster summary (4B) and eggNOG mapper classifications (4C) can be found in this jupyter notebook titled [Figure4_code_CLARC_2024_paper.ipynb](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig4/code/Figure4_code_CLARC_2024_paper.ipynb)
+
+- data: All data used by the previous jupyter notebook can be found in this [zipped folder](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig4/data/allcarriage_pangenome_i95.zip) within this repository
 
 ## Figure 5
 
