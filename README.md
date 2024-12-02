@@ -58,15 +58,19 @@ Distribution of pneumococcal strain clusters in different geographic locations:
 
 ## Figure 3
 
+Reduction of gene oversplitting for various pneumococcal pangenome analyses (pangenomes generated added one dataset at a time, cumulatively)
+
+<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure3_v3.png" alt="CLARC workflow" width="750"/>  
+
 ### 3A and 3B
 
-- code:
+- code: The code used to summarize the accessory and core gene counts for all pneumococcal pangenome analyses can be found in the first 2 sections of this [jupyter notebook](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/code/essential_gene_analysis/Figure3_code_CLARC_2024_paper.ipynb) 
 
-- data:
+- data: The data used by the Figure3_code_CLARC_2024_paper.ipynb notebook can be found in compressed folders containing the Roary+CLARC results for all pneumococcal 7 pangenome analyses. These folders are hosted in this [Zenodo folder](10.5281/zenodo.14187853). Each identity threshold run (i95, i90, i80) has its own unique folder that the code references. 
 
 ### 3C
 
-- Extracting essential gene protein sequences from NCBI genomic feature file
+- **Extracting essential gene protein sequences from NCBI genomic features file**
 
   - code:
 
@@ -80,11 +84,11 @@ Distribution of pneumococcal strain clusters in different geographic locations:
       
       Additionally, to extract the appropiate essential gene sequences, we used the genomic feature file for the pneumococcal strain that was used in the Tn-Seq analysis (TIGR4). The NCBI accession number is [GCF_000006885.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000006885.1/). This gff can be found in this GitHub repository under the name [TIGR4_closed_ref_2001.gbff](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/data/essential_gene_analysis/TIGR4_closed_ref_2001.gbff)
  
-- Protein BLAST-ing pangenome analyses for essential gene protein sequences
+- **Protein BLAST-ing pangenome analyses for essential gene protein sequences**
 
   - code:
  
-      After obtaining the fasta file with the appropiate protein sequences, we use this [jupyter notebook](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/code/essential_gene_analysis/run_essential_blasting_paper.ipynb) (run_essential_blasting_paper.ipynb) which takes as input the path to the appropiate pangenome results folder (in this project, the i80, i90 and i95 files available in this [Zenodo folder](10.5281/zenodo.14187853)). All appropiate directories and subdirectories can be found in these compressed files.
+      After obtaining the fasta file with the appropiate protein sequences, we use this [jupyter notebook](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/code/essential_gene_analysis/run_essential_blasting_paper.ipynb) (run_essential_blasting_paper.ipynb) which takes as input the path to the appropiate pangenome results folder (in this project, the i80, i90 and i95 folders available in this [Zenodo folder](10.5281/zenodo.14187853)). All appropiate directories and subdirectories can be found in these compressed folders.
 
      Importantly, the run_essential_blasting_paper.ipynb calls a bash script (essential_protein_blast_paper.sh) to run the blast commands. This bash script can be found [in this repository](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/code/essential_gene_analysis/essential_protein_blast_paper.sh). The bash script assumes that blast is installed within a conda environment named 'blast', when running the commands. If this is not the case for you, you can comment the first line. 
 
@@ -92,10 +96,11 @@ Distribution of pneumococcal strain clusters in different geographic locations:
 
     The extracted essential gene protein sequences that were used to build the BLASTP database (aka the output of the extracting_TIGR4_essential_genes_paper.ipynb notebook) can be found here under the name [strep_pneumo_essential_protein_seqs.fasta](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/data/essential_gene_analysis/strep_pneumo_essential_protein_seqs.fasta)
 
-- Summarizing BLASTP query results
+- **Summarizing BLASTP query results**
 
-  - code:
-  - data:
+  - code: Once the blast results folders are created across the CLARC result folders, the data to quantify and summarize the query results into Figure 3C can also be found in the last section of the [Figure3_code_CLARC_2024_paper.ipynb](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/code/essential_gene_analysis/Figure3_code_CLARC_2024_paper.ipynb) jupyter notebook, alongside the code for Figures 3A and 3B.
+
+  - data: As previously mentioned, the CLARC result folders for the different identity parameters (i95, i90, i80) including BLASTP query results can be found compressed in this [Zenodo folder](10.5281/zenodo.14187853)
 
 ## Figure 4
 
