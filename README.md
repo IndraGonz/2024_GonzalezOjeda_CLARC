@@ -118,6 +118,8 @@ This figure was generated using the Roary and Roary+CLARC results of the pangeno
 
 ## Figure 5
 
+
+
 ## Figure 6
 
 ## Figure 7
