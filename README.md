@@ -120,7 +120,7 @@ This figure was generated using the Roary and Roary+CLARC results of the pangeno
 
 Changes in accessory gene frequency dynamics before and after CLARC
 
-<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure5_v3_hists.jpg" alt="All carriage CLARC cluster breakdown" width="750"/> 
+<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure5_v3_hists.jpg" alt="" width="750"/> 
 
 ### 5A and 5B
 
@@ -132,7 +132,7 @@ Changes in accessory gene frequency dynamics before and after CLARC
 
 Assessing CLARC impact on post-vaccination prediction using a quadratic programming (QP) model
 
-<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure6_v3.jpg" alt="All carriage CLARC cluster breakdown" width="750"/> 
+<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure6_v3.jpg" alt="" width="750"/> 
 
 ### Figures 6A, 6B, 6C and 6D
 
@@ -144,4 +144,16 @@ The quadratic programming post vaccine population structure prediction model was
 
 ## Figure 7
 
-## Guide to replicating the figures
+Comparison of Roary and Panaroo in pneumococcal population structure prediction model
+
+<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure7_v3.jpg" alt="" width="750"/> 
+
+Figure 7 uses the same environment set-up as Figure 6, so make sure to run it from a conda environment that has the python-R integration software (rpy2) downloaded.
+
+- code: Code to analyze the data and reproduce this figure can be found in a jupyter notebook named [Figure7_code_CLARC_2024_paper.ipynb](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig7/code/Figure7_code_CLARC_2024_paper.ipynb) within this repository. This jupyter notebook also calls the previously used R functions found in the [Figure 6 code folder](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Figures/Fig6/code) within this repository.
+
+- data: All appropiate pangenome and CLARC results used in this analysis can be found in the [Zenodo folder](10.5281/zenodo.14187853), under the named specified by the jupyter notebook.
+
+## Raising issues/concerns
+
+If you have trouble replicating the analyses with any of the previous code/data, don't hesitate to contact me at igonzalezojeda@g.harvard.edu . Thank you very much for your time in checking this out!
