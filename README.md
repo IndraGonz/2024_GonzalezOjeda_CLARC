@@ -118,9 +118,29 @@ This figure was generated using the Roary and Roary+CLARC results of the pangeno
 
 ## Figure 5
 
+Changes in accessory gene frequency dynamics before and after CLARC
 
+<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure5_v3_hists.jpg" alt="All carriage CLARC cluster breakdown" width="750"/> 
+
+### 5A and 5B
+
+- code: The code used to generate figures 5A and 5B can be found in this jupyter notebook titled [Figure5_code_CLARC_2024_paper.ipynb](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig5/code/Figure5_code_CLARC_2024_paper.ipynb) within this repository.
+
+- data: All data used by the previous jupyter notebook can be found in Figure 5's [data folder](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Figures/Fig5/data) within this repository, with the exception of the 'gene_presence_absence_roary_allc_i95.csv' input, which is hosted as a zipped file in [Zenodo](10.5281/zenodo.14187853).
 
 ## Figure 6
+
+Assessing CLARC impact on post-vaccination prediction using a quadratic programming (QP) model
+
+<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure6_v3.jpg" alt="All carriage CLARC cluster breakdown" width="750"/> 
+
+### Figures 6A, 6B, 6C and 6D
+
+The quadratic programming post vaccine population structure prediction model was implemented using an R integration into python. Therefore, the following analyses must be run from a conda environment with the appropiate python integration software (and R) downloaded. For the environment file and instructions on how to set up this part of the notebook see [this part](https://github.com/IndraGonz/nfds-tutorial/tree/main?tab=readme-ov-file#quadratic-programming-qp-model) of a previous GitHub tutorial I wrote covering this topic. Once you have the environment properly set up, you can proceed to run the code in this section.
+
+- code: Code to analyze the data and reproduce all figures can be found in a jupyter notebook named [Figure6_code_CLARC_2024_paper.ipynb](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig6/code/Figure6_code_CLARC_2024_paper.ipynb) within this repository. This jupyter notebook calls a series of R functions that can also be found in the [Figure 6 code folder](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Figures/Fig6/code) in this repository.
+
+- data: All the appropiate data used to generate the figures can be found in Figure 6's [data folder](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Figures/Fig6/data).
 
 ## Figure 7
 
