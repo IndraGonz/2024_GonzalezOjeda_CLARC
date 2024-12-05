@@ -18,7 +18,7 @@ Indra González Ojeda, Samantha G. Palace, Pamela P. Martinez, Taj Azarian, Lind
 - [Figure 5](#figure-5)
 - [Figure 6](#figure-6)
 - [Figure 7](#figure-7)
-- [Guide to replicating the figures](#guide-to-replicating-the-figures)
+- [Raising issues or concerns](#raising-issues-or-concerns)
 
 ## Genomes
 
@@ -154,6 +154,6 @@ Figure 7 uses the same environment set-up as Figure 6, so make sure to run it fr
 
 - data: All appropiate pangenome and CLARC results used in this analysis can be found in the [Zenodo folder](10.5281/zenodo.14187853), under the named specified by the jupyter notebook.
 
-## Raising issues/concerns
+## Raising issues or concerns
 
 If you have trouble replicating the analyses with any of the previous code/data, don't hesitate to contact me at igonzalezojeda@g.harvard.edu . Thank you very much for your time in checking this out!
