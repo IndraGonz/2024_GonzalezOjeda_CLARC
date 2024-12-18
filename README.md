@@ -6,7 +6,7 @@ Code corresponding to the paper:
 
 Linkage-based ortholog refinement in bacterial pangenomes with CLARC (2024)
 
-Indra González Ojeda, Samantha G. Palace, Pamela P. Martinez, Taj Azarian, Lindsay R. Grant, Laura L. Hammitt, Katherine L. O’Brien, William P. Hanage, Marc Lipsitch
+Indra González Ojeda, Samantha G. Palace, Pamela P. Martinez, Taj Azarian, Lindsay R. Grant, Laura L. Hammitt, William P. Hanage, Marc Lipsitch
 
 ## Table of contents
 
