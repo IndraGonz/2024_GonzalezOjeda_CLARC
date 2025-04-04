@@ -18,6 +18,7 @@ bioRxiv 2024.12.18.629228; doi: https://doi.org/10.1101/2024.12.18.629228
 - [Figure 5](#figure-5)
 - [Figure 6](#figure-6)
 - [Figure 7](#figure-7)
+- [Figure S2](#figure-s2)
 - [Raising issues or concerns](#raising-issues-or-concerns)
 
 ## Genomes
@@ -62,7 +63,7 @@ Workflow of CLARC tool:
 
 Distribution of pneumococcal strain clusters in different geographic locations:
 
-<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure2_v3.png" alt="Figure 2" width="900"/>  
+<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure2_R1.png" alt="Figure 2" width="900"/>  
 
 ### 2B, 2C
 
@@ -76,7 +77,7 @@ Distribution of pneumococcal strain clusters in different geographic locations:
 
 Reduction of gene oversplitting for various pneumococcal pangenome analyses (pangenomes generated added one dataset at a time, cumulatively)
 
-<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure3_v3.png" alt="Accessory and core count, Roary pre and post CLARC" width="750"/>  
+<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure3_R1.png" alt="Accessory and core count, Roary pre and post CLARC" width="750"/>  
 
 ### 3A and 3B
 
@@ -122,7 +123,7 @@ Reduction of gene oversplitting for various pneumococcal pangenome analyses (pan
 
 Breakdown of CLARC clusters found in all-carriage pneumococcal pangenome (8907 genomes)
 
-<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure4_v3.png" alt="All carriage CLARC cluster breakdown" width="750"/>  
+<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure4_R1.png" alt="All carriage CLARC cluster breakdown" width="750"/>  
 
 This figure was generated using the Roary and Roary+CLARC results of the pangenome analysis built with all 8,907 pneumococcal genomes. Specifically, this analysis uses the pangenome analysis created with the default parameters (identity threshold = 95%).
 
@@ -131,18 +132,6 @@ This figure was generated using the Roary and Roary+CLARC results of the pangeno
 - code: Code to parse CLARC cluster summary (4B) and eggNOG mapper classifications (4C) can be found in this jupyter notebook titled [Figure4_code_CLARC_2024_paper.ipynb](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig4/code/Figure4_code_CLARC_2024_paper.ipynb)
 
 - data: All data used by the previous jupyter notebook can be found in this [zipped folder](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig4/data/allcarriage_pangenome_i95.zip) within this repository
-
-## Figure 5
-
-Changes in accessory gene frequency dynamics before and after CLARC
-
-<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure5_v3_hists.jpg" alt="" width="750"/> 
-
-### 5A and 5B
-
-- code: The code used to generate figures 5A and 5B can be found in this jupyter notebook titled [Figure5_code_CLARC_2024_paper.ipynb](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig5/code/Figure5_code_CLARC_2024_paper.ipynb) within this repository.
-
-- data: All data used by the previous jupyter notebook can be found in Figure 5's [data folder](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Figures/Fig5/data) within this repository, with the exception of the 'gene_presence_absence_roary_allc_i95.csv' input, which is hosted as a zipped file in [Zenodo](10.5281/zenodo.14187853).
 
 ## Figure 6
 
@@ -169,6 +158,18 @@ Figure 7 uses the same environment set-up as Figure 6, so make sure to run it fr
 - code: Code to analyze the data and reproduce this figure can be found in a jupyter notebook named [Figure7_code_CLARC_2024_paper.ipynb](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig7/code/Figure7_code_CLARC_2024_paper.ipynb) within this repository. This jupyter notebook also calls the previously used R functions found in the [Figure 6 code folder](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Figures/Fig6/code) within this repository.
 
 - data: All appropiate pangenome and CLARC results used in this analysis can be found in the [Zenodo folder](10.5281/zenodo.14187853), under the named specified by the jupyter notebook.
+
+## Figure S2
+
+Changes in accessory gene frequency dynamics before and after CLARC
+
+<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/FigureS2_R1.jpg" alt="" width="750"/> 
+
+### S2A and S2B
+
+- code: The code used to generate figures S2A and S2B can be found in this jupyter notebook titled [FigureS2_code_CLARC_2024_paper.ipynb](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/FigS2/code/FigureS2_code_CLARC_2024_paper.ipynb) within this repository.
+
+- data: All data used by the previous jupyter notebook can be found in Figure S2's [data folder](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Figures/FigS2/data) within this repository, with the exception of the 'gene_presence_absence_roary_allc_i95.csv' input, which is hosted as a zipped file in [Zenodo](10.5281/zenodo.14187853).
 
 ## Raising issues or concerns
 
