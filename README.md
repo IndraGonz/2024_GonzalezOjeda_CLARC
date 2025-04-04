@@ -22,6 +22,8 @@ bioRxiv 2024.12.18.629228; doi: https://doi.org/10.1101/2024.12.18.629228
 
 ## Genomes
 
+### Validation on pneumococcal carriage datasets
+
 A total of 8907 pneumococcal genomes were used in this study. Among these are 9 closed references and samples from 7 different carriage datasets. The locations and number of samples used from each dataset are:
 
 - Southwest, USA - 937 samples
@@ -31,6 +33,20 @@ A total of 8907 pneumococcal genomes were used in this study. Among these are 9 
 - Malawi - 629 samples
 - South Africa - 1637 samples
 - Iceland - 958 samples
+
+The accession numbers for all samples used (divided by dataset) can be found in the [Genomes/accession_numbers](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Genomes/accession_numbers/) folder within this repository. 
+
+Additionally, all corresponding assemblies (.fasta) and annotation files (.gff) can be found in this [Zenodo folder]()
+
+### Validation across multiple bacterial species 
+
+Distinct datasets were curated for five bacterial species: _Mycobacterium tuberculosis_, _Listeria monocytogenes_, _Streptococcus agalactiae_, _Streptococcus pneumoniae_, and _Escherichia coli_. Complete genome assemblies were retrieved from RefSeq, selecting only closed genomes deposited after 2010 to ensure high assembly quality and a balanced sample size across species. An exception was made for _E. coli_, where genomes deposited after 2018 were used due to its disproportionately large representation in RefSeq. The number of samples for each species are as follows:
+
+- _M. tuberculosis_ - 432 samples
+- _L. monocytogenes_ - 423 samples
+- _S. agalactiae_ - 156 samples
+- _S. pneumoniae_ - 221 samples
+- _E. coli_ - 670 samples
 
 The accession numbers for all samples used (divided by dataset) can be found in the [Genomes/accession_numbers](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Genomes/accession_numbers/) folder within this repository. 
 
