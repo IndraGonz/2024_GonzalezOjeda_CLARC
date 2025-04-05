@@ -37,7 +37,7 @@ A total of 8907 pneumococcal genomes were used in this study. Among these are 9 
 
 The accession numbers for all samples used (divided by dataset) can be found in the [Genomes/accession_numbers](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Genomes/accession_numbers/) folder within this repository. 
 
-Additionally, all corresponding assemblies (.fasta) and annotation files (.gff) can be found in this [Zenodo folder]()
+Additionally, all corresponding assemblies (.fasta) and annotation files (.gff) can be found in this [Zenodo folder](10.5281/zenodo.14187853) (version v1)
 
 ### Validation across multiple bacterial species 
 
@@ -51,7 +51,7 @@ Distinct datasets were curated for five bacterial species: _Mycobacterium tuberc
 
 The accession numbers for all samples used (divided by dataset) can be found in the [Genomes/accession_numbers](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Genomes/accession_numbers/) folder within this repository. 
 
-Additionally, all corresponding assemblies (.fasta) and annotation files (.gff) can be found in this [Zenodo folder](10.5281/zenodo.14187853)
+Additionally, all corresponding assemblies (.fasta) and annotation files (.gff) can be found in this [Zenodo folder](10.5281/zenodo.14187853) (version v2)
   
 ## Figure 1
 
