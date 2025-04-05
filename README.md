@@ -51,7 +51,7 @@ Distinct datasets were curated for five bacterial species: _Mycobacterium tuberc
 
 The accession numbers for all samples used (divided by dataset) can be found in the [Genomes/accession_numbers](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Genomes/accession_numbers/) folder within this repository. 
 
-Additionally, all corresponding assemblies (.fasta) and annotation files (.gff) can be found in this [Zenodo folder]()
+Additionally, all corresponding assemblies (.fasta) and annotation files (.gff) can be found in this [Zenodo folder](10.5281/zenodo.14187853)
   
 ## Figure 1
 
@@ -83,7 +83,7 @@ Reduction of gene oversplitting for various pneumococcal pangenome analyses (pan
 
 - code: The code used to summarize the accessory and core gene counts for all pneumococcal pangenome analyses can be found in the first 2 sections of this [jupyter notebook](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/code/essential_gene_analysis/Figure3_code_CLARC_2024_paper.ipynb) 
 
-- data: The data used by the Figure3_code_CLARC_2024_paper.ipynb notebook can be found in compressed folders containing the Roary+CLARC results for all pneumococcal 7 pangenome analyses. These folders are hosted in this [Zenodo folder](10.5281/zenodo.14187853). Each identity threshold run (i95, i90, i80) has its own unique folder that the code references. 
+- data: The data used by the Figure3_code_CLARC_2024_paper.ipynb notebook can be found in compressed folders containing the Roary+CLARC results for all pneumococcal 7 pangenome analyses. These folders are hosted in this [Zenodo folder](10.5281/zenodo.14187853) (version v1). Each identity threshold run (i95, i90, i80) has its own unique folder that the code references. 
 
 ### 3C
 
@@ -105,7 +105,7 @@ Reduction of gene oversplitting for various pneumococcal pangenome analyses (pan
 
   - code:
  
-      After obtaining the fasta file with the appropiate protein sequences, we use this [jupyter notebook](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/code/essential_gene_analysis/run_essential_blasting_paper.ipynb) (run_essential_blasting_paper.ipynb) which takes as input the path to the appropiate pangenome results folder (in this project, the i80, i90 and i95 folders available in this [Zenodo folder](10.5281/zenodo.14187853)). All appropiate directories and subdirectories can be found in these compressed folders.
+      After obtaining the fasta file with the appropiate protein sequences, we use this [jupyter notebook](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/code/essential_gene_analysis/run_essential_blasting_paper.ipynb) (run_essential_blasting_paper.ipynb) which takes as input the path to the appropiate pangenome results folder (in this project, the i80, i90 and i95 folders available in this [Zenodo folder](10.5281/zenodo.14187853) (version v1). All appropiate directories and subdirectories can be found in these compressed folders.
 
      Importantly, the run_essential_blasting_paper.ipynb calls a bash script (essential_protein_blast_paper.sh) to run the blast commands. This bash script can be found [in this repository](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/code/essential_gene_analysis/essential_protein_blast_paper.sh). The bash script assumes that blast is installed within a conda environment named 'blast', when running the commands. If this is not the case for you, you can comment the first line. 
 
@@ -117,7 +117,7 @@ Reduction of gene oversplitting for various pneumococcal pangenome analyses (pan
 
   - code: Once the blast results folders are created across the CLARC result folders, the data to quantify and summarize the query results into Figure 3C can also be found in the last section of the [Figure3_code_CLARC_2024_paper.ipynb](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig3/code/essential_gene_analysis/Figure3_code_CLARC_2024_paper.ipynb) jupyter notebook, alongside the code for Figures 3A and 3B.
 
-  - data: As previously mentioned, the CLARC result folders for the different identity parameters (i95, i90, i80) including BLASTP query results can be found compressed in this [Zenodo folder](10.5281/zenodo.14187853)
+  - data: As previously mentioned, the CLARC result folders for the different identity parameters (i95, i90, i80) including BLASTP query results can be found compressed in this [Zenodo folder](10.5281/zenodo.14187853, version v1)
 
 ## Figure 4
 
@@ -133,31 +133,41 @@ This figure was generated using the Roary and Roary+CLARC results of the pangeno
 
 - data: All data used by the previous jupyter notebook can be found in this [zipped folder](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig4/data/allcarriage_pangenome_i95.zip) within this repository
 
-## Figure 6
+## Figure 5
 
 Assessing CLARC impact on post-vaccination prediction using a quadratic programming (QP) model
 
-<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure6_v3.jpg" alt="" width="750"/> 
+<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure5_R1.png" alt="" width="750"/> 
 
-### Figures 6A, 6B, 6C and 6D
+### Figures 5A, 5B, 5C and 5D
 
 The quadratic programming post vaccine population structure prediction model was implemented using an R integration into python. Therefore, the following analyses must be run from a conda environment with the appropiate python integration software (and R) downloaded. For the environment file and instructions on how to set up this part of the notebook see [this part](https://github.com/IndraGonz/nfds-tutorial/tree/main?tab=readme-ov-file#quadratic-programming-qp-model) of a previous GitHub tutorial I wrote covering this topic. Once you have the environment properly set up, you can proceed to run the code in this section.
 
-- code: Code to analyze the data and reproduce all figures can be found in a jupyter notebook named [Figure6_code_CLARC_2024_paper.ipynb](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig6/code/Figure6_code_CLARC_2024_paper.ipynb) within this repository. This jupyter notebook calls a series of R functions that can also be found in the [Figure 6 code folder](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Figures/Fig6/code) in this repository.
+- code: Code to analyze the data and reproduce all figures can be found in a jupyter notebook named [Figure6_code_CLARC_2024_paper.ipynb](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig6/code/Figure5_code_CLARC_2024_paper.ipynb) within this repository. This jupyter notebook calls a series of R functions that can also be found in the [Figure 5 code folder](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Figures/Fig5/code) in this repository.
 
-- data: All the appropiate data used to generate the figures can be found in Figure 6's [data folder](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Figures/Fig6/data).
+- data: All the appropiate data used to generate the figures can be found in Figure 5's [data folder](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Figures/Fig5/data).
+
+## Figure 6
+
+Comparison of Roary, Panaroo and PPanGGOLiN in pneumococcal population structure prediction model
+
+<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure6_R1.png" alt="" width="750"/> 
+
+Figure 6 uses the same environment set-up as Figure 5, so make sure to run it from a conda environment that has the python-R integration software (rpy2) downloaded.
+
+- code: Code to analyze the data and reproduce this figure can be found in a jupyter notebook named [Figure6_code_CLARC_R1_2025_paper.ipynb](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig6/code/Figure6_code_CLARC_R1_2025_paper.ipynb) within this repository. This jupyter notebook also calls the previously used R functions found in the [Figure 5 code folder](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Figures/Fig5/code) within this repository.
+
+- data: All appropiate pangenome and CLARC results used in this analysis can be found in the [Zenodo folder](10.5281/zenodo.14187853) (version v1), under the names specified by the jupyter notebook.
 
 ## Figure 7
 
-Comparison of Roary and Panaroo in pneumococcal population structure prediction model
+Performance of CLARC across multiple bacterial species with different lifestyles and pangenome structures
 
-<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure7_v3.jpg" alt="" width="750"/> 
+<img src="https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/images/Figure7_R1.png" alt="" width="750"/> 
 
-Figure 7 uses the same environment set-up as Figure 6, so make sure to run it from a conda environment that has the python-R integration software (rpy2) downloaded.
+- code: Code to reproduce this analysis and figure can be found jupyter notebook [Figure7_code_CLARC_R1_2025_paper.ipynb](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig7/code/Figure7_code_CLARC_R1_2025_paper.ipynb) within this repository. 
 
-- code: Code to analyze the data and reproduce this figure can be found in a jupyter notebook named [Figure7_code_CLARC_2024_paper.ipynb](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/Fig7/code/Figure7_code_CLARC_2024_paper.ipynb) within this repository. This jupyter notebook also calls the previously used R functions found in the [Figure 6 code folder](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Figures/Fig6/code) within this repository.
-
-- data: All appropiate pangenome and CLARC results used in this analysis can be found in the [Zenodo folder](10.5281/zenodo.14187853), under the named specified by the jupyter notebook.
+- data: All appropiate pangenome and CLARC results used in this analysis can be found in the [Zenodo folder](10.5281/zenodo.14187853) (version v2), under the names specified by the jupyter notebook.
 
 ## Figure S2
 
@@ -169,7 +179,7 @@ Changes in accessory gene frequency dynamics before and after CLARC
 
 - code: The code used to generate figures S2A and S2B can be found in this jupyter notebook titled [FigureS2_code_CLARC_2024_paper.ipynb](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/blob/main/Figures/FigS2/code/FigureS2_code_CLARC_2024_paper.ipynb) within this repository.
 
-- data: All data used by the previous jupyter notebook can be found in Figure S2's [data folder](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Figures/FigS2/data) within this repository, with the exception of the 'gene_presence_absence_roary_allc_i95.csv' input, which is hosted as a zipped file in [Zenodo](10.5281/zenodo.14187853).
+- data: All data used by the previous jupyter notebook can be found in Figure S2's [data folder](https://github.com/IndraGonz/2024_GonzalezOjeda_CLARC/tree/main/Figures/FigS2/data) within this repository, with the exception of the 'gene_presence_absence_roary_allc_i95.csv' input, which is hosted as a zipped file in [Zenodo](10.5281/zenodo.14187853) (version v1).
 
 ## Raising issues or concerns
 
